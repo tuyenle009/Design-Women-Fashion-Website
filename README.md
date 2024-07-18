@@ -1,5 +1,7 @@
 # Website Design Selling Women's Clothing
 
+At SODO, we bring you the finest in women's fashion. Our carefully curated collections feature the latest trends, timeless classics, and everything in between. Whether you're looking for chic everyday wear, elegant evening attire, or something uniquely stylish, we have something for every occasion.
+
 # Screen Shot
 
 ![image](https://github.com/user-attachments/assets/a639b951-d46a-4683-9873-e77dd3d5aae7)
