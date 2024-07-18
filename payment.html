@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Products</title>
+    <!-- loai bo nhung gia tri mac dinh ban dau cua css -->
+    <link rel="stylesheet" type="" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/payment.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="SIXDO Logo"></a>
+            </div>
+            <div id="menu-header">
+                <div class="header-icons">
+                    <img src="assets/icon/user.png" alt="" style="padding-right: 10px;">
+                    <a href="login.html">LOGIN</a>
+                    <img src="assets/icon/search-13-16.png" alt="" style="padding-right: 10px;">
+                    <a href="#">Search</a>
+                    <a href="#">VN | EN</a>
+                    <img src="assets/icon/shopping-cart-16.png" alt="" style="padding: 0px 10px;">
+                    <a href="shopping-basket.html" id="shopping-cart" >(0)</a>
+                    <ul id="products-in-cart">
+                    </ul>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a style=" border-bottom: 2px solid black;" href="new-products.html" class="nav-item tablet">NEW PRODUCT</a></li>
+                        <li><a href="new-products.html" class="nav-item tablet">DISCOUNTED PRODUCT</a></li>
+                        <li><a href="#" class="nav-item">PERFUME</a></li>
+                        <li><a href="#" class="nav-item ">HANDBAG</a></li>
+                        <li><a href="#" class="nav-item ">ACCESSORIES</a></li>
+                        <li><a href="#" class="nav-item tablet">COLLECTION</a></li>
+                        <li><a href="#" class="nav-item tablet">FASHION SHOW</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    <main>
+        <div id="order-form">
+            <section id="order-info">
+                <h2>Order Information</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full name</label>
+                            <input type="text" id="fullName" placeholder="Full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Your Phone</label>
+                            <input type="text" id="phone" placeholder="Your Phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="province">Province / City</label>
+                            <select id="province">
+                                <option>Select a Province / City</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="district">District</label>
+                            <select id="district">
+                                <option>Select a District</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ward">Wards</label>
+                            <select id="ward">
+                                <option>Select Ward / Commune</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" placeholder="Please fill your address">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="note">Note</label>
+                            <input type="text" id="note" placeholder="Example: Delivery during office hours">
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section id="order-summary">
+                <h2>Your Order</h2>
+                <div id="order-details">
+                    <p>Products</p>
+                    <p>Total money</p>
+                    <div class="order-item">
+                        <span>1 x Woven Mini Dress With Flower - Salmon - L</span>
+                        <span>2.596.000đ</span>
+                    </div>
+                    <div class="order-cost">
+                        <p>Price</p>
+                        <p>2.596.000đ</p>
+                    </div>
+                    <div class="order-cost">
+                        <p>Shipping Costs</p>
+                        <p>25.000đ</p>
+                    </div>
+                    <div class="order-total">
+                        <p>Total payment</p>
+                        <p>2.621.000đ</p>
+                    </div>
+                    <button id="confirm-btn">CONFIRM</button>
+                    <a href="new-products.html" id="shopping-link">Continue shopping</a>
+                    <div id="contact-info">
+                        <p><i class="phone-icon"></i> Hotline 1800 6650</p>
+                        <p><i class="guide-icon"></i> Shopping guide</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img class= "footer-img" src="assets/icon/time.png" alt="">
+                <p class="footer-strong-p">6 DAYS FOR EXCHANGE PRODUCTS</p>
+                <p>6 days for exchange / return products</p>
+            </div>
+            <div class="footer-section tablet">
+                <img class= "footer-img" src="assets/icon/call.png" alt="">
+                <p class="footer-strong-p">HOTLINE 1800 6650</p>
+                <p>8:00-21:00, Monday-Sunday, Lunar New Year holiday</p>
+            </div>
+            <div class="footer-section tablet">
+                <img class= "footer-img" src="assets/icon/shop.png" alt="">
+                <p class="footer-strong-p">SHOP SYSTEN</p>
+                <p>nearly 60 stores in Vietnam</p>
+            </div>
+            <div class="footer-section">
+                <img class= "footer-img" src="assets/icon/car.png" alt="">
+                <p class="footer-strong-p">TRANSPORT</p>
+                <p>Same price 25K nationwide</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <div class="footer-links-section">
+                    <h4>Contact</h4>
+                    <p>We specialize in providing high-quality clothing products for everyone</p>
+                    <p>📍 268 Cau Giay, Ha Noi, Vietnam</p>
+                    <p>📞 0344001211</p>
+                    <p>📧 leductuyen@gmail.com</p>
+                </div>
+                <div class="footer-links-section tablet">
+                    <h4>CATEGORY</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-section tablet">
+                    <h4>CUSTOMER SUPPORT</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-section">
+                    <h4>CONNECT WITH SIXDO</h4>
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.2560430590543!2d106.0574224096648!3d20.942230390666598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a30555555555%3A0x39a8acd006ab8e69!2sHung%20Yen%20University%20of%20Technology%20and%20Education%2C%20Campus%202!5e0!3m2!1sen!2s!4v1718404443883!5m2!1sen!2s" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <p style="text-align: center; padding-top: 15px; border-top: 1px solid rgb(227, 221, 187);"> 2020 Sixdo.vn</p>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

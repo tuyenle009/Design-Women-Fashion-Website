@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- loai bo nhung gia tri mac dinh ban dau cua css -->
+    <link rel="stylesheet" type="" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/admin.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+        <aside id="sidebar">
+            <div class="profile">
+                <img src="assets/img/avt.png" alt="User Profile">
+                <h2>TUYEN LEE</h2>
+                <p>Email: leductuyen@gmail.com</p>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="admin.html">Dashboard</a></li>
+                    <li><a href="admin-statictics.html">Statistic</a></li>
+                    <li><a href="#">Task Order</a></li>
+                    <li><a href="#">Widget</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+            </nav>
+            <button class="logout"><a href="index.html">Go Out</a></button>
+
+        </aside>
+        <main id="main-content">
+            <header id="header">
+                <h1>STATISTICS</h1>
+                <div class="header-icons">
+                    <a href="#"><img src="assets/icon/ic-facebook.svg" alt="Mail"></a>
+                    <a href="#"><img src="assets/icon/ic-instagram.svg" alt="Notifications"></a>
+                </div>
+            </header>
+            <section >
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>ID</th>
+                            <th>Product information</th>
+                            <th>Unit price</th>
+                            <th>Amount</th>
+                            <th>Setting</th>
+                            <th>Date</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="assets/img/product17.jpg" ></td>
+                            <td>MallXLCream</td>
+                            <td>Mallard Green Organza Midi Dress</td>
+                            <td>65,000₫</td>
+                            <td>3</td>
+                            <td>Add|Del</td>
+                            <td>15/02/2024</td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="assets/img/product15.jpg" ></td>
+                            <td>MallXLCream</td>
+                            <td>Mallard Green Organza Midi Dress</td>
+                            <td>65,000₫</td>
+                            <td>3</td>
+                            <td>Add|Del</td>
+                            <td>15/02/2024</td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="assets/img/product13.jpg" ></td>
+                            <td>MallXLCream</td>
+                            <td>Mallard Green Organza Midi Dress</td>
+                            <td>65,000₫</td>
+                            <td>3</td>
+                            <td>Add|Del</td>
+                            <td>15/02/2024</td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="assets/img/product10.jpg" ></td>
+                            <td>MallXLCream</td>
+                            <td>Mallard Green Organza Midi Dress</td>
+                            <td>65,000₫</td>
+                            <td>3</td>
+                            <td>Add|Del</td>
+                            <td>15/02/2024</td>
+
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <div class="total-amount">
+                    <span>Total: <strong id="total-price">1,230,000₫</strong></span>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

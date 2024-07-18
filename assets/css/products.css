@@ -1,0 +1,176 @@
+
+
+/* MAIN */
+main{
+    padding-top: 0px;
+}
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+main #content {
+    display: flex;
+    padding: 20px;
+    background-color: #F6F3E4;
+}
+/* ASIDE */
+aside {
+    width: 20%;
+    padding: 20px;
+}
+
+aside #category h3 {
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(227, 221, 187);
+}
+
+aside #category ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside #category ul li {
+    margin: 10px 0;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none; /* Ẩn danh sách con mặc định */
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 10px; /* Thêm khoảng cách để dễ nhìn hơn */
+}
+
+/* Plus for item */
+.item-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-parent div.toggle-icon {
+    padding: 10px 0px;
+    font-size: 18px; /* Tăng kích thước font */
+}
+
+
+.item-parent{
+    border-bottom: 1px solid rgb(227, 221, 187);
+    
+}
+
+.menu-link:hover, .dropdown-menu li:hover,.product-name:hover{
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.menu-link {
+    text-decoration: none; /* Bỏ dấu gạch chân */
+    color: black; /* Chuyển màu chữ thành màu đen */
+}
+/* SECTION */
+
+section {
+    width: 80%;
+    padding: 20px;
+}
+
+section h3 {
+    margin-top: 0;
+    padding-bottom:5px ;
+    border-bottom: 1px solid rgb(227, 221, 187);
+
+
+}
+/* sản phẩm */
+.products {
+    display: flex;
+    flex-wrap: wrap;  /* Cho phép các sản phẩm xuống hàng */
+    /* gap: 20px; */
+}
+
+.product {
+    text-align: left;
+}
+.price{
+    font-weight: bold;
+}
+.product-name{
+    font-weight:lighter;
+
+}
+
+.product img {
+    width: 90%;
+    height: auto;
+}
+
+
+
+
+/* Mobile */
+[class *= "col-"]{
+    width: 100%;
+    float: left;
+    /* padding: 10px; */
+}
+/* Mobile */
+@media only screen and (max-width: 768px)
+{
+    /* #h-top-left{
+        text-align: center;
+        margin-left: 60px;
+    }
+    .footer-widget ul li{
+        display: none;
+    } */
+    .tablet{
+        display: none;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px)
+{
+    /* Tablet */
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}
+    
+    .tablet{
+        display: none;
+    }
+    
+}
+/* Desktop */
+@media only screen and (min-width: 1024px)
+{
+    /* Destop */
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;
+        margin-bottom: 20px; }
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+    .tablet{
+        display: block;
+    }
+    
+}

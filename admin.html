@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- loai bo nhung gia tri mac dinh ban dau cua css -->
+    <link rel="stylesheet" type="" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/admin.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+        <aside id="sidebar">
+            <div class="profile">
+                <img src="assets/img/avt.png" alt="User Profile">
+                <h2>TUYEN LEE</h2>
+                <p>Email: leductuyen@gmail.com</p>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="admin.html">Dashboard</a></li>
+                    <li><a href="admin-statictics.html">Products</a></li>
+                    <li><a href="#">Task Order</a></li>
+                    <li><a href="#">Widget</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+            </nav>
+            <button class="logout"><a href="index.html">Go Out</a></button>
+        </aside>
+        <main id="main-content">
+            <header id="header">
+                <h1>Hello <span>TUYEN LEE</span>, Welcome Back!</h1>
+                <div class="header-icons">
+                    <a href="#"><img src="assets/icon/ic-facebook.svg" alt="Mail"></a>
+                    <a href="#"><img src="assets/icon/ic-instagram.svg" alt="Notifications"></a>
+                </div>
+            </header>
+            <section id="dashboard">
+                <div class="card total-sales">
+                    <h2>Total Sales</h2>
+                    <div class="sales-info">
+                        <p class="amount">25.000.000</p>
+                        <p class="currency">in VND</p>
+                    </div>
+                    <div class="sales-graph">
+                    </div>
+                </div>
+                <div class="card top-sales-market">
+                    <h2>Top 3 Sales Market</h2>
+                </div>
+                <div class="card percentage-sales">
+                    <h2>Percentage Sales</h2>
+                </div>
+                <div class="card top-sales">
+                    <h2>Top 5 Sales</h2>
+                </div>
+                <div class="card recent-news">
+                    <h2>Recent News</h2>
+                </div>
+                <div class="card calendar">
+                    <h2>Calendar</h2>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
